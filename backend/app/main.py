@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from controllers import predict
+from .controllers import predict
 
 app = FastAPI()
 
