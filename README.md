@@ -11,8 +11,7 @@ Using linear regression, we aim to identify whether opponent defensive rating (a
 - Compare performance with `sklearn.linear_model.LinearRegression`
 
 ## Dataset
-- [NBA Games Stats Dataset](https://www.kaggle.com/datasets/nathanlauga/nba-games)
-- [European Soccer Database](https://www.kaggle.com/datasets/hugomathien/soccer)
+- [NBA Games Stats Dataset](https://www.kaggle.com/datasets/wyattowalsh/basketball/data)
 
 ## Features to Use
 - Minutes Played
