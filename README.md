@@ -12,6 +12,7 @@ Using linear regression, we aim to identify whether opponent defensive rating (a
 
 ## Dataset
 - [NBA Games Stats Dataset](https://www.kaggle.com/datasets/wyattowalsh/basketball/data)
+- [NBA Players Stats Dataset](https://www.kaggle.com/datasets/justinas/nba-players-data)
 
 ## Features to Use
 - Minutes Played
