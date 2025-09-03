@@ -1,7 +1,9 @@
 # 🏀 Linear Regression - Predicting Player Performance
 
 ## Overview
-Build a linear regression model from scratch to predict a basketball/soccer player's points per game based on stats like minutes played, assists, and rebounds.
+This project explores the relationship between a basketball player’s scoring performance and the defensive strength of opposing teams. Instead of predicting raw points directly, we measure how much a player’s performance deviates from their season average when facing different defenses.
+
+Using linear regression, we aim to identify whether opponent defensive rating (and potentially other team stats) can explain or predict these deviations. The model allows us to estimate how many points above or below their average a player is expected to score against a given team.
 
 ## Objective
 - Understand the mechanics of linear regression
@@ -17,7 +19,6 @@ Build a linear regression model from scratch to predict a basketball/soccer play
 - Assists
 - Rebounds
 - Field Goal Attempts
-- Pass Accuracy (for soccer)
 
 ## Evaluation Metrics
 - Mean Squared Error (MSE)
