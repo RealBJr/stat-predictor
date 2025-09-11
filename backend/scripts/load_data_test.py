@@ -25,4 +25,4 @@ df = pd.read_csv(csv_path)
 
 # Connect to PostgreSQL and write table
 engine = create_engine(DATABASE_URL_LOCAL)
-df.to_sql("basketball_stats", con=engine, index=False, if_exists="replace")
+df.to_sql("nba", con=engine, index=False, if_exists="replace")
