@@ -5,7 +5,7 @@ export default function DefaultLayout() {
   return (
     <AppShellHeader p="md">
       <Container>
-        <strong>My App Header</strong>
+        <strong>Stats Prediction</strong>
       </Container>
     </AppShellHeader>
   );

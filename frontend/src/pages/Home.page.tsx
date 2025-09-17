@@ -1,14 +1,16 @@
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Welcome } from '../components/Welcome/Welcome';
-import DefaultLayout  from '../components/DefaultLayout/DefaultLayout';
+import { PlayerCard } from '@/components/PlayerCard/PlayerCard';
+import { TeamCard } from '@/components/TeamCard/TeamCard';
+import { VersusBanner } from '@/components/VersusBanner/VersusBanner';
+import HomePageLayout from '@/components/HomePageLayout/HomePageLayout';
 
 export function HomePage() {
   return (
     <>
-      <DefaultLayout>
-        <Welcome />
-        <ColorSchemeToggle />
-      </DefaultLayout>
+      <HomePageLayout>
+        <PlayerCard />
+        <TeamCard />
+      </HomePageLayout>
+      <VersusBanner />
     </>
   );
 }
