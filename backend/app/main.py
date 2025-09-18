@@ -19,5 +19,6 @@ app.add_middleware(
 
 app.include_router(player_routes.router)
 
+# Local development, run python -m app.main
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
