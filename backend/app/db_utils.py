@@ -11,7 +11,10 @@ username = os.getenv("DATABASE_PROD_USERNAME")
 password = os.getenv("DATABASE_PROD_PASSWORD")
 
 try:
-    conn_str = f"mssql+pymssql://{username}:{password}@{server}:1433/{database}"
+    conn_str = (
+        f"mssql+pyodbc://{username}:{password}@{server}:1433/{database}"
+        "?driver=ODBC+Driver+18+for+SQL+Server&Encrypt=yes&TrustServerCertificate=yes"
+    )
     engine = create_engine(conn_str)
     ClientSession = sessionmaker(autocommit=False, autoflush=False, bind=engine)
     
